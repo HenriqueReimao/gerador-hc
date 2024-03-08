@@ -1,0 +1,42 @@
+#container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem; /* Borda arredondada */
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor de fundo alterada no hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: #f1f1f1;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem; /* Borda arredondada */
+}
+
+li {
+    padding: 1rem;
+    border-bottom: 0.1rem solid #ddd;
+    border-radius: 0.5rem; /* Borda arredondada */
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #e9e9e9; /* Cor de fundo alterada no hover */
+}

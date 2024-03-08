@@ -8,6 +8,11 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent {
+export class HeaderComponent{
+  mostrarLista = false;
+  itens: string[] = ['Item 1', 'Item 2', 'Item 3'];
 
+  toggleLista(): void {
+    this.mostrarLista = !this.mostrarLista;
+  }
 }
